@@ -1,0 +1,46 @@
+scene_id: "scene_A"
+image_size:
+  width: 1920
+  height: 1080
+
+subscenes:
+  subscene_1:
+#    traffic_light_area:
+#      polygon:
+#        all_points_x: [36,389,90,0,0]
+#        all_points_y: [136,178,359,359,142]
+#      traffic_light_rect:
+#        x: 357
+#        y: 21
+#        width: 14
+#        height: 19
+#
+#    stop_area:
+#      polygon:
+#        all_points_x: [ 93, 401, 516, 438 ]
+#        all_points_y: [ 359, 175, 189, 359 ]
+
+    restricted_parking:
+      polygon:
+        all_points_x: [ 341,103,1,2,254 ]
+        all_points_y: [ 115,360,359,319,113 ]
+      seconds_timelimit: 10
+#    restricted_area:
+#      polygon:
+#        all_points_x: [708,731,760,840,1090,870,808,772,752]
+#        all_points_y: [120,163,258,718,720,313,203,148,125]
+
+#    stop_area:
+#      polygon:
+#        all_points_x: [93, 401, 516, 438]
+#        all_points_y: [359, 175, 189, 359]
+
+
+#    stop_area:
+#      polygon:
+#        all_points_x: [36,389,90,0,0]
+#        all_points_y: [136,178,359,359,142]
+
+#    dividing_line:
+#      all_points_x: [594,653,666,674,676,676,670]
+#      all_points_y: [711,419,313,227,176,141,113]
